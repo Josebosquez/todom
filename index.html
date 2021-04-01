@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <div class="app">
@@ -12,7 +13,8 @@
         <section>
           <label for="todo-input">Add to your todo list!</label>
           <input class="todo-input" type="text" name="todo-input">
-          <button class="add-todo">ADD</button>
+          <button type="button" class="add-todo btn-outline-primary">ADD</button>
+          <button type="button" class="clear-todo btn btn-outline-danger">CLEAR</button>
         </section>
       <ol class="todo-list"></ol>
     </div>
